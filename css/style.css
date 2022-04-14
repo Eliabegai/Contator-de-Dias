@@ -1,0 +1,68 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+li{
+    list-style: none;
+}
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding: 1rem;
+    color: rgba(200, 198, 198, 0.778);
+    background-image: linear-gradient(to bottom, #c8c6c6c6, black);
+    border-radius: 10px;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.4);
+    text-align: center;
+    width: 400px;
+    background-position: center;
+    margin: auto;
+}
+
+body{
+    height: 100vh;
+    background-image: url(https://img.freepik.com/fotos-gratis/prepare-a-colocacao-de-anel-no-dedo-da-noiva_1157-338.jpg?t=st=1649811881~exp=1649812481~hmac=6f06e8d101c1b40511f4aaad231a2cdeff9eb763d2d8de8b42a32d82f04922eb&w=826);
+
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    display: grid;
+    align-items: center;
+}
+
+.countdown{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 500px));
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+}
+.countdown li{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    padding: 1rem;
+    color: #c8c6c6c6;
+    background-color: #1e1e1eb3;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.4);
+    text-align: center;
+}
+.countdown li span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 8rem;
+}
+h4{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: x-small;
+    padding: 1rem;
+    color: rgba(200, 198, 198, 0.778);
+        border-radius: 10px;
+    box-shadow: 0 2px 2px rgba(0,0,0,0.4);
+    text-align: center;
+    width: 130px;
+    background-position: center;
+    margin: auto;
+}
